@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIRA QUE COCHÉ — Vehículos premium desde Alemania</title>
+<meta name="description" content="MIRA QUE COCHÉ. Importación de vehículos premium desde Alemania. Entrega en toda Europa. Financiación desde 200€/mes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="miraquecoche.css">
+<!-- Reemplaza "logo.png" por el archivo de tu logo (colócalo en la misma carpeta) -->
+<link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#inicio" class="brand">
+      <!-- Reemplaza "logo.png" por el nombre real de tu archivo de logo -->
+      <img src="assets/logo.jpg" alt="MIRA QUE COCHÉ" class="brand-logo">
+      <span class="brand-name">MIRA QUE COCHÉ</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#inicio" data-i18n="nav_home">Inicio</a></li>
+        <li><a href="#vehiculos" data-i18n="nav_vehicles">Vehículos</a></li>
+        <li><a href="#proceso" data-i18n="nav_process">Cómo comprar</a></li>
+        <li><a href="#nosotros" data-i18n="nav_about">Nosotros</a></li>
+        <li><a href="#contacto" data-i18n="nav_contact">Contacto</a></li>
+      </ul>
+      <div class="lang-switch" id="langSwitch">
+        <button data-lang="es" class="lang-btn is-active" type="button">ES</button>
+        <button data-lang="de" class="lang-btn" type="button">DE</button>
+        <button data-lang="pt" class="lang-btn" type="button">PT</button>
+        <button data-lang="ar" class="lang-btn" type="button">AR</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <p class="hero-kicker" data-i18n="hero_kicker">Alemania → toda Europa</p>
+    <h1 data-i18n="hero_title">Coches premium, importados<br>con confianza desde Alemania.</h1>
+    <p class="hero-sub" data-i18n="hero_sub">Seleccionamos vehículos de baja kilometraje, gestionamos el cambio de matrícula y entregamos en toda Europa. Reserva con solo un 20% de entrada.</p>
+    <div class="hero-actions">
+      <a href="#vehiculos" class="btn btn-primary" data-i18n="hero_cta1">Ver vehículos disponibles</a>
+      <a href="https://wa.me/4915255480977?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20veh%C3%ADculos" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="hero_cta2">Escribir por WhatsApp</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-num">20%</span>
+        <span class="hero-stat-label" data-i18n="stat_deposit">Entrada por vehículo</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">200€</span>
+        <span class="hero-stat-label" data-i18n="stat_finance">Financiación desde</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num" data-i18n="stat_delivery_num">DE</span>
+        <span class="hero-stat-label" data-i18n="stat_delivery">Con entrega en toda Europa</span>
+      </div>
+    </div>
+  <div class="hero-panel-frame">
+  <img src="assets/logo.jpg" alt="MIRA QUE COCHÉ" class="hero-img">
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process" id="proceso">
+  <h2 data-i18n="process_title">Comprar tu coche, en tres pasos</h2>
+  <div class="process-grid">
+    <article class="process-step">
+      <span class="process-num">01</span>
+      <h3 data-i18n="step1_title">Reserva con el 20%</h3>
+      <p data-i18n="step1_text">Aseguras tu vehículo con un depósito del 20% de su valor. El resto se abona antes de la entrega.</p>
+    </article>
+    <article class="process-step">
+      <span class="process-num">02</span>
+      <h3 data-i18n="step2_title">Financia desde 200€/mes</h3>
+      <p data-i18n="step2_text">Planes de financiación disponibles a 200€, 250€ o 300€ al mes, adaptados a cada vehículo.</p>
+    </article>
+    <article class="process-step">
+      <span class="process-num">03</span>
+      <h3 data-i18n="step3_title">Matrícula y entrega</h3>
+      <p data-i18n="step3_text">Nos encargamos del cambio de matriculación y de la entrega del vehículo, allá donde estés.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ VEHICLES ============ -->
+<section class="vehicles" id="vehiculos">
+  <div class="vehicles-head">
+    <h2 data-i18n="vehicles_title">Vehículos disponibles</h2>
+    <p data-i18n="vehicles_sub">Desliza cada galería con el dedo para ver todas las fotos.</p>
+  </div>
+
+  <div class="vehicle-grid">
+
+    <!-- VEHICLE 1 -->
+    <article class="vehicle-card">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track" data-track>
+          <img src="assets/photo 1.jpg" alt="">
+          <img src="assets/photo 2.jpg" alt="">
+          <img src="assets/photo 3.jpg" alt="">
+          <img src="assets/photo 4.jpg" alt="">
+        </div>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+      <div class="vehicle-body">
+        <h3>Audi A6 Avant 3.0 TDI quattro S line</h3>
+        <p class="vehicle-price">18.000 €</p>
+        <ul class="vehicle-specs">
+          <li><span data-i18n="spec_first_reg">Primera matriculación</span><b>03/2026</b></li>
+          <li><span data-i18n="spec_mileage">Kilometraje</span><b>1.300 km</b></li>
+          <li><span data-i18n="spec_body">Carrocería</span><b>Familiar premium — 5 plazas</b></li>
+          <li><span data-i18n="spec_gearbox">Transmisión</span><b data-i18n="gearbox_auto">Automática</b></li>
+          <li><span data-i18n="spec_fuel">Combustible</span><b data-i18n="fuel_diesel">Diésel</b></li>
+          <li><span data-i18n="spec_power">Potencia</span><b>299 CV (220 kW)</b></li>
+          <li><span data-i18n="spec_engine">Motor</span><b>3.0 TDI V6</b></li>
+          <li><span data-i18n="spec_drive">Tracción</span><b>Quattro integral</b></li>
+        </ul>
+        <a class="btn btn-order" target="_blank" rel="noopener"
+           href="https://wa.me/4915255480977?text=Hola%2C%20me%20interesa%20el%20Audi%20A6%20Avant%203.0%20TDI%20quattro%20S%20line%20(18.000%E2%82%AC).%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
+           data-i18n="order_btn">Comprar por WhatsApp</a>
+      </div>
+    </article>
+
+    <!-- VEHICLE 2 -->
+    <article class="vehicle-card">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track" data-track>
+          <img src="assets/photo 5.jpg" alt="">
+          <img src="assets/photo 6.jpg" alt="">
+          <img src="assets/photo 7.jpg" alt="">
+          <img src="assets/photo 8.jpg" alt="">
+        </div>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+      <div class="vehicle-body">
+        <h3>Nuevo Audi Q2 1.6 TDi 116CV Edición S-Line</h3>
+        <p class="vehicle-price">9.800 €</p>
+        <ul class="vehicle-specs">
+          <li><span data-i18n="spec_gearbox">Transmisión</span><b data-i18n="gearbox_auto">Automática</b></li>
+          <li><span data-i18n="spec_year">Año</span><b>12/2018</b></li>
+          <li><span data-i18n="spec_mileage">Kilometraje</span><b>90.000 km</b></li>
+          <li><span data-i18n="spec_owners">Propietarios</span><b data-i18n="owner_single">Único propietario</b></li>
+        </ul>
+        <a class="btn btn-order" target="_blank" rel="noopener"
+           href="https://wa.me/4915255480977?text=Hola%2C%20me%20interesa%20el%20Audi%20Q2%201.6%20TDi%20116CV%20S-Line%20(9.800%E2%82%AC).%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
+           data-i18n="order_btn">Comprar por WhatsApp</a>
+      </div>
+    </article>
+
+    <!-- VEHICLE 3 -->
+    <article class="vehicle-card">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track" data-track>
+          <img src="assets/photo 10.jpg" alt="">
+          <img src="assets/photo 9.jpg" alt="">
+          <img src="assets/photo 11.jpg" alt="">
+        </div>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+      <div class="vehicle-body">
+        <h3>Audi A4 B8 2.0 TFSI</h3>
+        <p class="vehicle-price">11.700 €</p>
+        <ul class="vehicle-specs">
+          <li><span data-i18n="spec_location">Ubicación</span><b>Belgrado</b></li>
+        </ul>
+        <a class="btn btn-order" target="_blank" rel="noopener"
+           href="https://wa.me/4915255480977?text=Hola%2C%20me%20interesa%20el%20Audi%20A4%20B8%202.0%20TFSI%20(11.700%E2%82%AC).%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
+           data-i18n="order_btn">Comprar por WhatsApp</a>
+      </div>
+    </article>
+
+    <!-- VEHICLE 4 -->
+    <article class="vehicle-card">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track" data-track>
+          <img src="assets/photo 14.jpg" alt="">
+          <img src="assets/photo 13.jpg" alt="">
+          <img src="assets/photo 12.jpg" alt="">
+          <img src="assets/photo 15.jpg" alt="">
+        </div>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+      <div class="vehicle-body">
+        <h3>Kia Sportage Híbrido</h3>
+        <p class="vehicle-price">28.000 €</p>
+        <ul class="vehicle-specs">
+          <li><span data-i18n="spec_tech">Tecnología</span><b data-i18n="kia_tech">Turbohíbrido — hasta 231 CV</b></li>
+          <li><span data-i18n="spec_mileage">Kilometraje</span><b>25.000 km</b></li>
+        </ul>
+        <p class="vehicle-note" data-i18n="kia_note">Mayor ahorro y menor consumo. Espacio, confort y tecnología hasta el último detalle.</p>
+        <a class="btn btn-order" target="_blank" rel="noopener"
+           href="https://wa.me/4915255480977?text=Hola%2C%20me%20interesa%20el%20Kia%20Sportage%20H%C3%ADbrido%20(28.000%E2%82%AC).%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
+           data-i18n="order_btn">Comprar por WhatsApp</a>
+      </div>
+    </article>
+
+    <!-- VEHICLE 5 -->
+    <article class="vehicle-card">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track" data-track>
+          <img src="assets/photo 16.jpg" alt="">
+          <img src="assets/photo 17.jpg" alt="">
+          <img src="assets/photo 18.jpg" alt="">
+          <img src="assets/photo 19.jpg" alt="">
+          <img src="assets/photo 20.jpg" alt="">
+          <img src="assets/photo 21.jpg" alt="">
+          <img src="assets/photo 22.jpg" alt="">
+          <img src="assets/photo 23.jpg" alt="">
+        </div>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+      <div class="vehicle-body">
+        <h3>Volkswagen Tiguan Allspace R-Line 4Motion</h3>
+        <p class="vehicle-price">13.000 €</p>
+        <a class="btn btn-order" target="_blank" rel="noopener"
+           href="https://wa.me/4915255480977?text=Hola%2C%20me%20interesa%20el%20Volkswagen%20Tiguan%20Allspace%20R-Line%204Motion%20(13.000%E2%82%AC).%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
+           data-i18n="order_btn">Comprar por WhatsApp</a>
+      </div>
+    </article>
+
+    <!-- VEHICLE 6 -->
+    <article class="vehicle-card">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track" data-track>
+          <img src="assets/photo 27.jpg" alt="">
+          <img src="assets/photo 25.jpg" alt="">
+          <img src="assets/photo 26.jpg" alt="">
+          <img src="assets/photo 24.jpg" alt="">
+        </div>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+      <div class="vehicle-body">
+        <h3>Volkswagen Tiguan R-Line 2024</h3>
+        <p class="vehicle-price">13.500 €</p>
+        <ul class="vehicle-specs">
+          <li><span data-i18n="spec_mileage">Kilometraje</span><b>9.000 km</b></li>
+          <li><span data-i18n="spec_equip">Equipamiento</span><b data-i18n="full_equip">Totalmente equipado</b></li>
+        </ul>
+        <a class="btn btn-order" target="_blank" rel="noopener"
+           href="https://wa.me/4915255480977?text=Hola%2C%20me%20interesa%20el%20Volkswagen%20Tiguan%20R-Line%202024%2C%209.000km%20(13.500%E2%82%AC).%20%C2%BFPodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
+           data-i18n="order_btn">Comprar por WhatsApp</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ ABOUT / TRUST ============ -->
+<section class="about" id="nosotros">
+  <div class="about-text">
+    <h2 data-i18n="about_title">Con sede en Alemania, entregamos en toda Europa</h2>
+    <p data-i18n="about_p1">MIRA QUE COCHÉ selecciona e importa vehículos de ocasión de baja kilometraje directamente desde Alemania. Cada coche se revisa antes de la entrega y gestionamos por ti el cambio de matriculación.</p>
+    <p data-i18n="about_p2">Reserva con un 20% de entrada, elige tu plan de financiación y recibe tu vehículo allá donde estés.</p>
+  </div>
+  <div class="about-badges">
+    <div class="badge"><span class="badge-num">🇩🇪</span><span data-i18n="badge1">Sede en Alemania</span></div>
+    <div class="badge"><span class="badge-num">🚚</span><span data-i18n="badge2">Entrega en toda Europa</span></div>
+    <div class="badge"><span class="badge-num">📋</span><span data-i18n="badge3">Cambio de matrícula incluido</span></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / REGISTRATION FORM ============ -->
+<section class="contact" id="contacto">
+  <div class="contact-inner">
+    <div class="contact-intro">
+      <h2 data-i18n="contact_title">Solicita información</h2>
+      <p data-i18n="contact_sub">Rellena el formulario y te contactamos lo antes posible. También puedes escribirnos directamente por WhatsApp.</p>
+      <a href="https://wa.me/4915255480977" target="_blank" rel="noopener" class="btn btn-ghost contact-wa" data-i18n="contact_wa_btn">Contactar por WhatsApp</a>
+    </div>
+
+    <form class="contact-form" id="contactForm" action="https://formsubmit.co/miraquecoche@gmail.com" method="POST">
+      <!-- Configuración de FormSubmit: sin asunto en captcha, respuesta directa al email del cliente -->
+         <input type="hidden" name="_subject" value="Nueva solicitud — MIRA QUE COCHÉ">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" style="display:none">
+
+      <label>
+        <span data-i18n="form_name">Nombre completo</span>
+        <input type="text" name="Nombre" required>
+      </label>
+      <label>
+        <span data-i18n="form_email">Correo electrónico</span>
+        <input type="email" name="Email" required>
+      </label>
+      <label>
+        <span data-i18n="form_phone">Teléfono</span>
+        <input type="tel" name="Teléfono" required>
+      </label>
+      <label>
+        <span data-i18n="form_vehicle">Vehículo de interés</span>
+        <select name="Vehículo">
+          <option>Audi A6 Avant 3.0 TDI quattro S line</option>
+          <option>Audi Q2 1.6 TDi 116CV S-Line</option>
+          <option>Audi A4 B8 2.0 TFSI</option>
+          <option>Kia Sportage Híbrido</option>
+          <option>Volkswagen Tiguan Allspace R-Line 4Motion</option>
+          <option>Volkswagen Tiguan R-Line 2024</option>
+          <option data-i18n="form_other">Otro / consulta general</option>
+        </select>
+      </label>
+      <label class="full">
+        <span data-i18n="form_message">Mensaje</span>
+        <textarea name="Mensaje" rows="4"></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary full" data-i18n="form_submit">Enviar solicitud</button>
+      <p class="form-note" id="formNote" data-i18n="form_note">Al enviar, recibiremos tus datos por correo electrónico y te contactaremos a la mayor brevedad.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-brand-row">
+        <img src="assets/logo.jpg" alt="MIRA QUE COCHÉ" class="brand-logo">
+        <span class="brand-name">MIRA QUE COCHÉ</span>
+      </div>
+      <p data-i18n="footer_tagline">Vehículos premium desde Alemania, entregados en toda Europa.</p>
+    </div>
+    <div class="footer-links">
+      <h4 data-i18n="footer_contact">Contacto</h4>
+      <a href="mailto:miraquecoche@gmail.com">miraquecoche@gmail.com</a>
+      <a href="https://wa.me/4915255480977" target="_blank" rel="noopener">WhatsApp: +49 152 5548 0977</a>
+      <a href="https://www.instagram.com/miraquecoche" target="_blank" rel="noopener">Instagram: @miraquecoche</a>
+    </div>
+    <div class="footer-stats">
+      <h4 data-i18n="footer_stats">Estadísticas del sitio</h4>
+      <p><span data-i18n="footer_visits">Visitas totales</span>: <b id="visitCount">—</b></p>
+      <p><span data-i18n="footer_today">Visitas hoy</span>: <b id="visitCountToday">—</b></p>
+    </div>
+  </div>
+  <p class="footer-bottom">© <span id="year"></span> MIRA QUE COCHÉ — <span data-i18n="footer_rights">Todos los derechos reservados</span></p>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a href="https://wa.me/4915255480977?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener" class="wa-float" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16.02 3C9.4 3 4 8.36 4 14.98c0 2.2.6 4.28 1.65 6.06L4 29l8.2-2.15a12.9 12.9 0 0 0 3.82.58h.01c6.62 0 12.02-5.36 12.02-11.98C28.05 8.37 22.65 3 16.02 3zm7.03 17.03c-.3.83-1.72 1.6-2.38 1.7-.6.1-1.36.14-2.2-.14-.5-.16-1.15-.37-1.98-.73-3.48-1.5-5.75-5-5.92-5.24-.17-.24-1.4-1.87-1.4-3.56 0-1.7.9-2.53 1.22-2.87.32-.35.7-.43.93-.43.24 0 .47 0 .68.01.22.01.5-.08.79.6.3.7.99 2.44 1.08 2.6.09.18.15.38.03.62-.12.24-.18.38-.36.6-.18.2-.38.46-.54.62-.18.18-.37.37-.16.73.21.36.94 1.55 2.02 2.51 1.39 1.24 2.56 1.62 2.92 1.8.36.18.57.15.78-.09.21-.24.9-1.05 1.14-1.4.24-.36.48-.3.8-.18.33.12 2.08.98 2.44 1.16.36.18.6.27.68.42.09.16.09.9-.21 1.73z"/></svg>
+</a>
+
+<script src="miraquecoche.js"></script>
+</body>
+</html>
+    
